@@ -6,6 +6,7 @@
 
 | 路徑 | 主題 | 說明 |
 | --- | --- | --- |
+| `curriculum/basic_sql_units.md` | SQL 基礎六單元 | 前六個單元的基本教學說明、範例與練習 |
 | `examples/school_db_demo.sql` | SQL 基礎範例 | 學生、課程、JOIN、GROUP BY、View、Index |
 | `examples/employees_demo.sql` | 員工資料練習 | 員工資料表、薪資查詢、部門統計 |
 | `exercises/products_practice.sql` | 產品資料練習 | 產品資料表、查詢、更新、刪除與統計 |
@@ -14,7 +15,7 @@
 
 ## 建議學習順序
 
-1. 先閱讀本頁的 SQL 分類與常用語法。
+1. 先閱讀 [SQL 基礎六單元教學與練習](curriculum/basic_sql_units.md)，完成前六個基本單元。
 2. 執行 `examples/school_db_demo.sql`，熟悉基本查詢、JOIN 與分組。
 3. 執行 `examples/employees_demo.sql` 與 `exercises/products_practice.sql`，練習單表與彙總分析。
 4. 進入 `examples/tcm_clinic/`，學習門診流程如何轉成資料庫。
@@ -88,6 +89,8 @@ LIMIT 5;
 ```
 
 ## 課程安排建議
+
+前六個單元的基本教學說明與練習題請見：[SQL 基礎六單元教學與練習](curriculum/basic_sql_units.md)。
 
 | 單元 | 主題 |
 | --- | --- |
