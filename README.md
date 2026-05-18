@@ -1,11 +1,12 @@
 # SQL_DEMO
 
-這個 repo 收錄資料庫管理系統與 SQL 語法教學範例，適合作為課堂講義、學生練習與專題資料庫設計入門。內容從基本 SQL 語法開始，延伸到兩個完整情境資料庫：中醫診所門診系統與人才匹配系統。
+這個 repo 收錄資料庫管理系統與 SQL 語法教學範例，適合作為課堂講義、學生練習與專題資料庫設計入門。內容從資料庫管理系統的歷史故事開始，接著學習 SQL 基礎語法，最後延伸到兩個完整情境資料庫：中醫診所門診系統與人才匹配系統。
 
 ## 專案內容
 
 | 路徑 | 主題 | 說明 |
 | --- | --- | --- |
+| `curriculum/dbms_history_story.md` | 資料庫管理系統的歷史故事 | 主要人物、技術發展脈絡與資料庫趣事 |
 | `curriculum/basic_sql_units.md` | SQL 基礎六單元 | 前六個單元的基本教學說明、範例與練習 |
 | `examples/school_db_demo.sql` | SQL 基礎範例 | 學生、課程、JOIN、GROUP BY、View、Index |
 | `examples/employees_demo.sql` | 員工資料練習 | 員工資料表、薪資查詢、部門統計 |
@@ -15,11 +16,12 @@
 
 ## 建議學習順序
 
-1. 先閱讀 [SQL 基礎六單元教學與練習](curriculum/basic_sql_units.md)，完成前六個基本單元。
-2. 執行 `examples/school_db_demo.sql`，熟悉基本查詢、JOIN 與分組。
-3. 執行 `examples/employees_demo.sql` 與 `exercises/products_practice.sql`，練習單表與彙總分析。
-4. 進入 `examples/tcm_clinic/`，學習門診流程如何轉成資料庫。
-5. 進入 `examples/talent_matching/`，學習技能需求、求職者能力與媒合分數的資料模型。
+1. 先閱讀 [資料庫管理系統的歷史故事](curriculum/dbms_history_story.md)，理解資料庫技術如何演變。
+2. 再閱讀 [SQL 基礎六單元教學與練習](curriculum/basic_sql_units.md)，完成前六個基本單元。
+3. 執行 `examples/school_db_demo.sql`，熟悉基本查詢、JOIN 與分組。
+4. 執行 `examples/employees_demo.sql` 與 `exercises/products_practice.sql`，練習單表與彙總分析。
+5. 進入 `examples/tcm_clinic/`，學習門診流程如何轉成資料庫。
+6. 進入 `examples/talent_matching/`，學習技能需求、求職者能力與媒合分數的資料模型。
 
 ## 情境資料庫執行方式
 
@@ -94,6 +96,7 @@ LIMIT 5;
 
 | 單元 | 主題 |
 | --- | --- |
+| 導入單元 | 資料庫管理系統的歷史故事 |
 | 第 1 單元 | 資料庫與資料表建立 |
 | 第 2 單元 | 新增、修改、刪除資料 |
 | 第 3 單元 | SELECT 查詢與條件篩選 |
